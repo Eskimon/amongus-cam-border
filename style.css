@@ -1,0 +1,67 @@
+:root {
+  --var-color: rgba(255,255,255,1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+div.border {
+  top: calc(var(--var-top) - var(--var-border));
+  left: calc(var(--var-left) - var(--var-border));
+  width: calc(var(--var-width) + 2 * var(--var-border));
+  height: calc(var(--var-height) + 2 * var(--var-border));
+  border-radius: var(--var-radius);
+  overflow: hidden;
+}
+
+div.placeholder {
+  top: var(--var-top);
+  left: var(--var-left);
+  width: var(--var-width);
+  height: var(--var-height);
+  background-color: black;
+}
+
+p {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  content: '';
+  width: 200%;
+  height: 200%;
+}
+
+/* Animations ***************************************************************/
+
+/**** rotate *********/
+
+p.rotate {
+  background: linear-gradient(var(--var-color), rgba(255, 255, 255, 0));
+}
+
+.rotate {
+  animation: var(--var-speed) linear infinite rotation;
+}
+
+@keyframes rotation {
+  0% { transform: rotate(0deg); }
+  100%{ transform: rotate(360deg); }
+}
+
+/**** blink *********/
+
+p.blink {
+  background: var(--var-color);
+}
+
+.blink {
+  animation: var(--var-speed) linear infinite alternate blinking;
+}
+
+@keyframes blinking {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
