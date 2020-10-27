@@ -11,6 +11,8 @@ To have something funnier, the border can be animated. Right now there are three
 - **blink** (the cam border blink from transparent to solid color)
 - **rotate** (the cam border rotate around you)
 
+[![Here is a demo gif, click for a better quality video!](demo/amongus-border.gif)](demo/amongus-border.mp4)
+
 ## Adding the border to your OBS Studio or StreamLabs OBS setup
 
 To add this animated border to your setup, simply create a new browser source with the following url : `https://eskimon.fr/amongus-cam-border/`
