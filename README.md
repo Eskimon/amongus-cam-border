@@ -28,7 +28,7 @@ To add this animated border to your setup, simply create a new browser source wi
 
 So for example if my camera is in the bottom left (600px from the top, 60px from the left) of my screen and is 400 by 300px I will use the following url:
 
-`https://eskimon.fr/amongus-cam-border/?channel=eskimon&h=300&h=400&t=600&l=60&style=blink&speed=1`
+`https://eskimon.fr/amongus-cam-border/?channel=eskimon&w=400&h=300&t=600&l=60&style=blink&speed=1`
 
 and you will have the following result:
 

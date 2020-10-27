@@ -39,7 +39,7 @@ p {
 /**** rotate *********/
 
 p.rotate {
-  background: linear-gradient(var(--var-color), rgba(255, 255, 255, 0));
+  background: linear-gradient(var(--var-color) 40%, rgba(255, 255, 255, 0) 60%);
 }
 
 .rotate {
