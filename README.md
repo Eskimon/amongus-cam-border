@@ -44,3 +44,10 @@ To show the impostor color, send `!i`, `!imp` or `!impostor`.
 To show the crewmate color, send `!c`, `!crew` or `!crewmate`.
 
 Any of those command can be sent from you or any of your mods.
+
+## Tip
+
+If you don't want to alt-tab during a game, don't forget that this is all "chat driven", so you can simply send a message from a StreamDeck for example.
+If you don't own one, I've developed a [web version called "DeckyDecky"](https://deckydecky.com) that is free to use! With it you can pilot your stream and simply make a button to send a "!imp" or a "!crew" from any tablette or smartphone that you have around!
+
+![https://deckydecky.com](demo/deckydecky.jpg)
