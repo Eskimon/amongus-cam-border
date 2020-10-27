@@ -32,8 +32,6 @@ So for example if my camera is in the bottom left (600px from the top, 60px from
 
 `https://eskimon.fr/amongus-cam-border/?channel=eskimon&w=400&h=300&t=600&l=60&style=blink&speed=1`
 
-and you will have the following result:
-
 ## Finding my camera size
 
 If you don't know how to find your facecam size, find its source element in your OBS. Then, right-click on it and select "Edit Transform...". In the popup you then can see the position and the size of the element!
