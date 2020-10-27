@@ -36,6 +36,8 @@ So for example if my camera is in the bottom left (600px from the top, 60px from
 
 If you don't know how to find your facecam size, find its source element in your OBS. Then, right-click on it and select "Edit Transform...". In the popup you then can see the position and the size of the element!
 
+![The "Edit Transform..." menu](demo/edit-modal.png)
+
 ## Command
 
 To show the impostor color, send `!i`, `!imp` or `!impostor`.
