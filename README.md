@@ -1,3 +1,5 @@
+([Documentation en 🇫🇷](README.fr.md))
+
 # Among Us animated camera border
 
 The idea behind this project is to add a little interactivity to your cam border when playing your games of among us.
@@ -7,9 +9,9 @@ The idea behind this project is to add a little interactivity to your cam border
 
 To have something funnier, the border can be animated. Right now there are three options:
 
-- **static** (the cam border does not moved at all, only solid color)
-- **blink** (the cam border blink from transparent to solid color)
-- **rotate** (the cam border rotate around you)
+- **blink**: the cam border blink from transparent to solid color
+- **rotate**: the cam border rotate around you
+- **static**: the cam border does not moved at all, only solid color
 
 [![Here is a demo gif, click for a better quality video!](demo/amongus-border.gif)](demo/amongus-border.mp4)
 
@@ -20,19 +22,19 @@ To add this animated border to your setup, simply create a new browser source wi
 **THEN**, you can add parameters to the URL to setup the border:
 
 - `channel`: Your twitch channel! (to read the chat)
-- `h`: height size (px) of your camera
-- `w`: width size (px) of your camera
-- `t`: position of your camera from the top (px)
-- `l`: position of your camera from the left (px)
+- `h`: height size (px) of your facecam
+- `w`: width size (px) of your facecam
+- `t`: position of your facecam from the top (px)
+- `l`: position of your facecam from the left (px)
 - `style`: style of the animation, can be: `static`, `blink`, `rotate` (default rotate)
-- `speed`: speed of the animation (default 5s)
-- `radius`: radius of the border (default 0px)
+- `speed`: speed of the animation in seconds (default 5)
+- `radius`: radius of the border in pixels (default 0)
 
-So for example if my camera is in the bottom left (600px from the top, 60px from the left) of my screen and is 400 by 300px I will use the following url:
+So for example if my facecam is in the bottom left (600px from the top, 60px from the left) of my screen and is 400 by 300px I will use the following url:
 
 `https://eskimon.fr/amongus-cam-border/?channel=eskimon&w=400&h=300&t=600&l=60&style=blink&speed=1`
 
-## Finding my camera size
+## Finding my facecam size
 
 If you don't know how to find your facecam size, find its source element in your OBS. Then, right-click on it and select "Edit Transform...". In the popup you then can see the position and the size of the element!
 
